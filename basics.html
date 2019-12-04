@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
+		<title>Bootstrap Basics</title>
+	</head>
+	<h1>Bootstrap Basic Buttons</h1>
+	<div class="basic">
+		<h2>A Few Button Classes</h2>
+
+		<button class="btn btn-primary">PRIMARY!</button>
+		<button class="btn btn-danger">DANGER!</button>
+		<button class="btn btn-success">CLICK ME!</button>
+		<button class="btn btn-light">LIGHT!</button>
+	</div>
+
+	<div class="type">
+		<h2>Adding Type to Button Classes</h2>
+		<button type="button" class="btn btn-primary btn-lg">Type=Large</button>
+		<button type="button" class="btn btn-danger btn-sm">Type=Small</button>
+		<button type="button" class="btn btn-success btn-lg">
+			Type=Large
+		</button>
+		<button type="button" class="btn btn-light btn-sm">Type=Small</button>
+	</div>
+
+	<div class="anchor">
+		<h2>The Button As An Anchor Tag</h2>
+		<a href="http://www.getbootstrap.com" class="btn btn-info btn-lg"
+			>Bootstrap Docs</a
+		>
+		<a href="http://www.w3schools.com" class="btn btn-primary btn-lg"
+			>W3Schools</a
+		>
+		<a
+			class="btn btn-primary"
+			href="http://www.wbigeneralcontractors.com"
+			role="button"
+			>Welcome WBI</a
+		>
+		<a
+			class="btn btn-danger btn-lg"
+			href="http://www.wbigeneralcontractors.com"
+			role="button"
+			>Welcome WBI</a
+		>
+	</div>
+
+	<div class="state">
+		<h2>Active and Disabled Buttons</h2>
+		<button class="btn btn-primary btn-lg active">PRIMARY ACTIVE!</button>
+		<button class="btn btn-danger" disabled>
+			DANGER DISABLED!
+		</button>
+		<button type="button" class="btn btn-secondary btn-lg" disabled>
+			Button
+		</button>
+		<button class="btn btn-success active">CLICK ME!</button>
+		<button class="btn btn-light">LIGHT!</button>
+	</div>
+
+	<div class="container">
+		<div class="jumbotron">
+			<h1>This is a Jumbotron</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id perferendis
+				quisquam nam corrupti minus tempore sapiente aut exercitationem porro,
+				voluptatum doloremque adipisci laboriosam consequatur sed nostrum modi?
+				Accusantium, nobis itaque.
+			</p>
+
+			<button class="btn btn-success btn-lg">Hi There!</button>
+		</div>
+		<form>
+			<div class="form-group">
+				<label for="exampleInputEmail1">Email address</label>
+				<input
+					type="email"
+					class="form-control"
+					id="exampleInputEmail1"
+					aria-describedby="emailHelp"
+				/>
+				<small id="emailHelp" class="form-text text-muted"
+					>We'll never share your email with anyone else.</small
+				>
+			</div>
+			<div class="form-group">
+				<label for="exampleInputPassword1">Password</label>
+				<input
+					type="password"
+					class="form-control"
+					id="exampleInputPassword1"
+				/>
+			</div>
+			<div class="form-group form-check">
+				<input type="checkbox" class="form-check-input" id="exampleCheck1" />
+				<label class="form-check-label" for="exampleCheck1">Check me out</label>
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	</div>
+	<body></body>
+</html>
